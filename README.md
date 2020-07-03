@@ -17,7 +17,7 @@ align="right">
 </h1>
 </font>
 <font color="gray" size="12pt">
-<a href="HTML/nn.html"> Недвижимость 
+<a href="HTML/information.html"> Недвижимость 
 </a>
 <p> 
 <a href="https://vk.com/idfast_12">
