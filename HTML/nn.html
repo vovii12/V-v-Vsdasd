@@ -9,7 +9,10 @@
 	{
 background: url(IMAGE/info.png);
 	}
-	 
+	 .ii
+{
+	display: none;
+}
 </style>
 <font color="gray">
 	<h1 align="right">
@@ -19,6 +22,7 @@ background: url(IMAGE/info.png);
 	Cтоимость объекта
 	</h1>
 </font>
+<font color="white" size="14pt">
 <p>
 Стоимость объекта - 100000 руб	
 </p>
@@ -31,6 +35,16 @@ background: url(IMAGE/info.png);
 <p>
 Итоговая стоимость - 134000	
 </p>
-
+<input class="ii" id="elem" value="Спасибо за покупку, приходите к нам ещё!">
+<input id="b1" type="button" value="Купить" >
+<script >
+	let elem=document.querySelector("#elem");
+	let button=document.querySelector("#b1");
+	b1.addEventListener("click",function()
+	{
+alert(elem.value);
+	});
+</script>
+</font>
 </body>
 </html>
